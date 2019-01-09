@@ -16,15 +16,20 @@
     <ul id="lang" class="dropdown-content">
       <li><a class="blue-text" href="#">ES</a></li>
         <li class="divider"></li>
-      <li><a class="blue-text" href="en">EN</a></li>
+      <li><a class="blue-text" href="en.html">EN</a></li>
+    </ul>
+    <ul id="lang2" class="dropdown-content">
+      <li><a class="blue-text" href="#">ES</a></li>
+        <li class="divider"></li>
+      <li><a class="blue-text" href="en.html">EN</a></li>
     </ul>
 <!--<div class="navbar-fixed">-->
   <nav class="transparent" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="assets/logo_flat.png" style="width: 200px"></a>
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="assets/logo_flat.png" style="width: 200px"></a>
       <ul class="right hide-on-med-and-down">
-        <li class="blue-text"><a href="#">Explora</a></li>
-        <li><a href="#">Propiedades</a></li>
+        <li class="blue-text"><a href="explora.html">Explora</a></li>
+        <li><a href="propiedades.html">Propiedades</a></li>
         <li><a href="#">Contacto</a></li>
           <li><a href="#">Sobre nosotros</a></li>
         <li><a class="dropdown-trigger" href="#!" data-target="lang" >ES<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -35,7 +40,7 @@
         <li><a href="#" class="blue-text text-darken-1">Propiedades</a></li>
         <li><a href="#" class="blue-text text-darken-1">Contacto</a></li>
         <li><a href="#" class="blue-text text-darken-1">Sobre nosotros</a></li>
-        <li><a class="dropdown-trigger" href="#!" data-target="lang">ES<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="lang2">ES<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -50,14 +55,36 @@
           <h5 class="header col s12 light">Disfruta, nosotros nos encargamos.</h5>
         </div>
         <div class="row center">
-          <a href="nomepudeescapar.html" id="download-button" class="btn-large waves-effect waves-dark blue">ESCÁPATE YA</a>
+          <a data-target="modal1" class="btn-large waves-effect waves-ligth blue modal-trigger">ESCÁPATE YA</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img class="hide-on-med-and-up" src="assets/landscape_2_s.jpg" alt="Unsplashed background img 1">
-      <img class="show-on-medium-and-up" src="assets/landscape_2.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img class="hide-on-small-only" src="assets/landscape_2.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+<!-- MODAL STRUCTURE -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+    <div class="row container">
+        <h4 class="blue-text">Reserve una fecha</h4>
+        <div class="col l4 s4">
+        <label>Fecha de ingreso</label>
+        <input type="text" class="datepicker">
+        </div>
+        <div class="col l4 s4">
+        <label>Fecha de Salida</label>
+        <input type="text" class="datepicker">
+        </div>
+    </div>    
+      <h5 class="center blue-text"> o hable con uno de nuestros representantes ya!</h5>
+      <p class="center">Creemos fielmtene en el trato personal para entender mejor sus necesidades</p>
+    <ul class="center"><a href="tel:+51947178476"><i class="material-icons">phone</i> +51 947178476</a></ul>
+          <ul class="center"> <a href="mailto:info@peru-escape.com"> <i class="material-icons">email</i> info@peru-escape.com</a></ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
   </div>
 
 <div class="container">
@@ -82,7 +109,7 @@
               <p>Amplia casa frente al mar</p>
             </div>
             <div class="card-action">
-              <a href="#">MÁS INFORMACIÓN</a>
+              <a href="propiedades/casa_canoas.html">MÁS INFORMACIÓN</a>
             </div>
           </div>
         </div>
