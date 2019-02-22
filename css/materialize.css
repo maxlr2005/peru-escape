@@ -8722,7 +8722,7 @@ input[type=range]::-ms-thumb {
   -webkit-flex: 1 auto;
       -ms-flex: 1 auto;
           flex: 1 auto;
-  background-color: #2196F3;
+  background-color: #2196F3 ;
   color: #fff;
   padding: 20px 22px;
   font-weight: 500;
